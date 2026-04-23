@@ -1,0 +1,21 @@
+#include "corne_xiao.dtsi"
+
+&default_transform {
+	col-offset = <6>;
+};
+
+&five_column_transform {
+	col-offset = <6>;
+};
+
+/* Right: columns D0..D5 (pinky toward split). */
+&kscan0 {
+	col-gpios
+		= <&xiao_d 0 GPIO_ACTIVE_HIGH>
+		, <&xiao_d 1 GPIO_ACTIVE_HIGH>
+		, <&xiao_d 2 GPIO_ACTIVE_HIGH>
+		, <&xiao_d 3 GPIO_ACTIVE_HIGH>
+		, <&xiao_d 4 GPIO_ACTIVE_HIGH>
+		, <&xiao_d 5 GPIO_ACTIVE_HIGH>
+		;
+};

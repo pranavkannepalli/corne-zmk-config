@@ -1,0 +1,10 @@
+
+.zmk/
+.venv/
+build/
+zephyr/
+modules/
+zmk/
+bootloader/
+mcuboot/
+.west/

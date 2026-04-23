@@ -1,0 +1,5 @@
+/*
+ * Board-specific integration for Seeed XIAO BLE + this shield.
+ * Add pinctrl or bus tweaks here if your PCB needs them; the XIAO devicetree
+ * already defines &xiao_i2c and &xiao_d for shield use.
+ */

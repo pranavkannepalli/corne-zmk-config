@@ -1,0 +1,13 @@
+file_format: "1"
+id: corne_xiao
+name: Corne (Seeed XIAO BLE)
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [seeed_xiao]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - corne_xiao_left
+  - corne_xiao_right
